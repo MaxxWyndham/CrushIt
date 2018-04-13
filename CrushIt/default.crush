@@ -1,0 +1,38 @@
+# the overall softness of the vehicle, 0 = rock solid, 1 = super soft
+overallsoftness = 0.3
+
+# how far (in BRUs) a point can move from its initial position
+deformability = 0.1
+
+# maximum distance away a point is considered to be the neighbour of another
+localitudeofdamage = 0.2
+
+# points closer than this are merged and considered as one
+crushpointmergetolerance = 0.03
+
+# these values refer to how far in from the surface of the car's bounding box
+# a point can be in order for it to be considered for crushing.
+# these settings effectively leave a box within the centre of the car that has no
+# active crush points because they wouldn't be reached by an impact
+# values are percentages
+activecrushbounds.sides = 0.35
+activecrushbounds.front = 0.2
+activecrushbounds.back = 0.2
+activecrushbounds.top = 0.15
+activecrushbounds.bottom = 0.1
+
+# these allow for fine tuning of the overall softness
+# a value of 1.0 would mean the overall softness is used
+# 2.0 would be twice as soft, 0.5 half as soft, etc
+relativesoftness.front = 0.5
+relativesoftness.back = 0.5
+relativesoftness.top = 0.3
+relativesoftness.bottom = 0.3
+relativesoftness.sides.end = 0.5
+relativesoftness.sides.middle = 0.75
+
+# used by the relativesoftness.sides. above
+# allows you to make sides weaker in the middle (as is usually the case)
+# values are percentages from the front
+positionofmiddleofsides.front = 0.3
+positionofmiddleofsides.back = 0.7
