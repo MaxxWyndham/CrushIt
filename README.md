@@ -20,7 +20,8 @@ Crush It loads settings from three places in the following order:
 Internal settings based on rough default values  
 **default.crush** from in the same folder as the exe  
 **datname.crush** from in the same folder as the exe  
-This allows you to set up default settings for a batch of cars but specific settings for specific cars
+This allows you to set up default settings for a batch of cars but specific settings for specific cars  
+The these crush files can be edited in notepad (or your favourite editor)  
 
 **Changelog**
 
