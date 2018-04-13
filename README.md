@@ -27,7 +27,7 @@ This allows you to set up default settings for a batch of cars but specific sett
 **v1.0.0**  
 Initial release
 
-**Credits**
+**Credits**  
 Toshiba-3 for the icon  
 The community for their patience  
 Stainless for their game
