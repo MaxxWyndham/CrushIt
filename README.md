@@ -5,7 +5,7 @@
 A crush data generator for Carmageddon.
 
 v1.0.0 released 2018-04-13  
-Download binary [here](http://www.toxic-ragers.co.uk/files/tools/breckfest/Breckfest.v1.5.0.zip) (49.1KB)
+Download binary [here](https://github.com/MaxxWyndham/CrushIt/releases/download/v1.0.0/CrushIt.v1.0.0.zip) (43.5KB)
 
 Notes:  
 About as barebones as you can possibly get.
@@ -26,3 +26,8 @@ This allows you to set up default settings for a batch of cars but specific sett
 
 **v1.0.0**  
 Initial release
+
+**Credits**
+Toshiba-3 for the icon  
+The community for their patience  
+Stainless for their game
