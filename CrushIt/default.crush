@@ -1,3 +1,6 @@
+# the minimum number of verts needed for crush data to be calculated
+minverts = 100
+
 # the overall softness of the vehicle, 0 = rock solid, 1 = super soft
 overallsoftness = 0.3
 

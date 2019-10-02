@@ -33,7 +33,7 @@ namespace CrushIt
                         Console.WriteLine($"      Faces     :  {mesh.Mesh.Faces.Count}");
                         Console.WriteLine($"      Verts     :  {mesh.Mesh.Vertices.Count}");
 
-                        if (mesh.Mesh.Vertices.Count > 100)
+                        if (mesh.Mesh.Vertices.Count > settings.MinVerts)
                         {
                             mesh.Mesh.CalculateCrush(settings);
 
@@ -229,7 +229,6 @@ namespace CrushIt
                     }
                 }
             }
-
 
             Console.WriteLine("Press ENTER to EXIT");
             Console.ReadLine();

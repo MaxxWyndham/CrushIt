@@ -8,6 +8,8 @@ namespace CrushIt
     {
         string source = "core settings";
 
+        int minVerts = 100;
+
         float overallSoftness = 0.3f;
         float deformability = 0.1f;
         float localitudeOfDamage = 0.2f;
@@ -32,6 +34,12 @@ namespace CrushIt
         {
             get => source;
             set => source = value;
+        }
+
+        public int MinVerts
+        {
+            get => minVerts;
+            set => minVerts = value;
         }
 
         public float OverallSoftness
@@ -162,6 +170,10 @@ namespace CrushIt
 
                     switch (parts[0])
                     {
+                        case "minverts":
+                            minVerts = parts[2].ToInt();
+                            break;
+
                         case "positionofmiddleofsides.front":
                             positionOfMiddleOfSides.X = parts[2].ToSingle();
                             break;
