@@ -1,11 +1,11 @@
-**Crush It v1.0.0**
+**Crush It v1.0.1**
 
 ![alt text](http://www.toxic-ragers.co.uk/images/misc/crushit.png "Crush It")
 
 A crush data generator for Carmageddon.
 
-v1.0.0 released 2018-04-13  
-Download binary [here](https://github.com/MaxxWyndham/CrushIt/releases/download/v1.0.0/CrushIt.v1.0.0.zip) (43.5KB)
+v1.0.1 released 2019-10-02  
+Download binary [here](https://github.com/MaxxWyndham/CrushIt/releases/download/v1.0.1/CrushIt.v1.0.1.zip) (43.7KB)
 
 Notes:  
 About as barebones as you can possibly get.
@@ -24,6 +24,9 @@ This allows you to set up default settings for a batch of cars but specific sett
 The these crush files can be edited in notepad (or your favourite editor)  
 
 **Changelog**
+
+**v1.0.1**  
+Exposed minverts within default.crush to allow greater control over which meshes are deemed crushable
 
 **v1.0.0**  
 Initial release
